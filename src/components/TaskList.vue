@@ -9,7 +9,7 @@ import { computed } from 'vue'
 
 import { useTaskStore } from '../store'
 
-// const taskStore = useTaskStore()
+const taskStore = useTaskStore()
 //👇 Creates a store instance
 const store = useTaskStore()
 
