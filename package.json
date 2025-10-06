@@ -21,9 +21,11 @@
     "format": "prettier --write src/",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "chromatic": "npx chromatic --project-token=chpt_dc878f55c1e5369"
   },
   "dependencies": {
+    "intro-storybook-vue-template": "^0.1.0",
     "pinia": "^3.0.3",
     "vue": "^3.5.17"
   },
